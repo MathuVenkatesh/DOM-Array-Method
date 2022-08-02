@@ -1,0 +1,49 @@
+body {
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 90%;
+}
+button {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: white;
+  border-color: gray;
+}
+aside {
+  margin-top: 45px;
+  width: 30%;
+  padding: 0 50px;
+  border-right: 1px solid gray;
+}
+main {
+  flex: 1;
+  padding: 10px 20px;
+}
+h2 {
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+.person {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+h3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0;
+}
